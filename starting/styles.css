@@ -1,0 +1,132 @@
+/* html style */
+html{
+    font-size: 16px;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+
+
+/* nav bar style */
+.navcon{
+    display: flex;
+    position: fixed;
+    height: 3rem;
+    background-color: teal;
+    width:100%;
+    z-index: 999;
+}
+.nav ul{
+    list-style: none;
+    display:inline-flex;
+    align-items: center;
+}
+
+.nav li,a{
+    text-decoration: none;
+    padding: 0 1rem;
+    color: lightsalmon;
+}
+
+/* title style */
+.flexcon{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    top:3rem;
+}
+.titlecon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:20rem;
+    background-color: lightsalmon;
+    
+}
+.banner{
+    height:5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:Coral;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    width:100%
+}
+
+/* intro style */
+.intro{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: lightsalmon;
+}
+.intro h2{
+    color: yellow;
+}
+
+.intro p{
+    color:white;
+}
+
+/* img container style */
+.imgcon{
+    display: flex;
+    padding: 5rem 0;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightsalmon;
+}
+
+@media only screen and (max-width:50rem){
+    .imgcon{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.imgcon img{
+    width:16rem;
+    height:20rem;
+    margin: 1rem 0;
+}
+/* feedback style */
+.feedback{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 5rem 2rem;
+    background-color: teal;
+}
+.feedback h1,p{
+    color: yellow;
+}
+
+/* activity style */
+.activity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightsalmon;
+}
+
+.activity h2{
+    color: yellow;
+}
+
+.activity img{
+    width: 30rem;
+    height:15rem;
+}
+
+/* footer style  */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:5rem;
+    background-color: teal;
+    color:lightsalmon;
+}
+
+.footer p{
+    font-size: 0.6rem;
+}
